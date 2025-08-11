@@ -38,7 +38,7 @@ body {
   width: 75vw;
   max-width: 1200px;
   min-height: 520px;
-  margin: 40px auto;
+  margin: 10px auto;
   padding: 32px 28px 28px 28px;
   border-radius: 32px;
   background: rgba(255, 255, 255, 0.18);
@@ -67,12 +67,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.75rem;
 }
 .tokenizer-header-row {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 .tokenizer-logo {
   width: 48px;
@@ -105,7 +105,7 @@ body {
   padding: 0.5rem;
   border-radius: 14px;
   border: 1px solid var(--border);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
   background: var(--input-bg);
   color: var(--text);
   transition: background 0.3s, color 0.3s;
@@ -113,8 +113,8 @@ body {
 .tokenizer-encode-row {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 0.5rem;
+  gap: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 .tokenizer-input {
   width: 70%;
@@ -142,7 +142,7 @@ body {
 .tokenizer-example-hint {
   font-size: 0.95rem;
   color: #888;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 .tokenizer-example-italic {
   font-style: italic;
@@ -155,8 +155,8 @@ body {
   padding: 0.5rem 1.2rem;
   font-size: 1rem;
   cursor: pointer;
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
   transition: background 0.2s;
   box-shadow: 0 2px 16px rgba(37, 99, 235, 0.12);
 }
