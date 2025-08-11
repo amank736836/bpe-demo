@@ -122,7 +122,7 @@ class BPETokenizer {
     const tokens = tokenIds
       .map((id) => this.invVocab[id] ?? "<UNK>");
     let result = "";
-    for (let t of tokens) {
+    for (const t of tokens) {
       if (SPECIAL_TOKENS.includes(t)) continue;
       if (t === "</w>") {
         result += " ";
