@@ -1,4 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Custom Tokenizer Demo
+
+This project demonstrates a simple custom tokenizer that learns vocabulary from a text corpus, supports ENCODE/DECODE, and handles special tokens.
+
+## Live Demo
+
+Check out the live demo at [bpe-demo-one.vercel.app](https://bpe-demo-one.vercel.app/).
+
+---
+
+## Logo
+
+**Ama**
+
+---
+
+## Card Background
+
+**Custom Tokenizer**  
+GenAI with JavaScript 1.0
+
+---
+
+## GenAI Timeline
+
+- **Start:** Aug 11, 2025, 9:00 PM
+- **Due:** Aug 12, 2025, 9:00 PM
+- **Eval Begins:** Aug 12, 2025, 9:00 PM
+- **Eval Ends:** Aug 13, 2025, 9:00 PM
+
+---
+
+## Instructions
+
+Build a custom tokenizer that learns vocab from text, supports ENCODE/DECODE and handles special tokens.
+
+---
+
+## Submission Instructions
+
+- Submit code + small demo corpus + vocab file + short README with setup, usage and examples
+
+---
+
+## Evaluation Parameters
+
+- Correctness of ENCODE/DECODE
+- Vocab quality
+- Performance
+- Code quality
+- Documentation
+
+---
+
+## Max Marks
+
+**100**
+
+---
+
+## Submission
+
+- **Repository Link:** (GitHub, GitLab, etc.)
+- **Submission:**
+  - Enter your submission (markdown supported)
+  - Submission content must be at least 10 characters
+
+---
 
 ## Getting Started
 

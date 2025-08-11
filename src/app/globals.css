@@ -69,6 +69,32 @@ body {
   align-items: center;
   margin-bottom: 1.5rem;
 }
+.tokenizer-header-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.tokenizer-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.tokenizer-title {
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+.tokenizer-title-genai {
+  color: #2563eb;
+  font-weight: 600;
+}
+.tokenizer-title-sub {
+  margin-left: 8px;
+  font-size: 1.1rem;
+  color: #888;
+}
 .tokenizer-subtitle {
   font-size: 1rem;
   color: #888;

@@ -175,7 +175,13 @@ export default function Home() {
     <div className={`tokenizer-container${darkMode ? ' dark' : ''}`}>
       <div className="tokenizer-card glass">
         <div className="tokenizer-header">
-          <h1>Custom BPE Tokenizer <span className="tokenizer-subtitle">(Next.js)</span></h1>
+          <div className="tokenizer-header-row">
+            <img src="/globe.svg" alt="GenAI Logo" className="tokenizer-logo" />
+            <h1 className="tokenizer-title">
+              Custom Tokenizer <span className="tokenizer-title-genai">GenAI</span>
+              <span className="tokenizer-title-sub tokenizer-subtitle">(JavaScript 1.0)</span>
+            </h1>
+          </div>
         </div>
         <section>
           <h2>1. Train Tokenizer</h2>
