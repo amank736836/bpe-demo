@@ -87,7 +87,7 @@ class BPETokenizer {
 
   encode(text: string) {
     const words = text.split(/\s+/).map((w) => [...w, "</w>"]);
-    let tokens = [];
+    const tokens = [];
     tokens.push(this.vocab["<BOS>"]);
 
     words.forEach((word) => {
@@ -143,7 +143,7 @@ export default function Home() {
   const [encoded, setEncoded] = useState<number[]>([]);
   const [decoded, setDecoded] = useState("");
   const [tokenizer, setTokenizer] = useState<BPETokenizer | null>(null);
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode] = useState(false);
 
   useEffect(() => {
     const tok = new BPETokenizer();
@@ -206,7 +206,7 @@ export default function Home() {
             >Fill Example</button>
           </div>
           <div className="tokenizer-example-hint">
-            <b>Example:</b> <span className="tokenizer-example-italic">'The quick brown fox jumps over the lazy dog! @2025'</span>
+            <b>Example:</b> <span className="tokenizer-example-italic">{'The quick brown fox jumps over the lazy dog! @2025'}</span>
           </div>
           <div className="tokenizer-result">
             <h3>Encoded IDs:</h3>
